@@ -45,7 +45,7 @@ export default function LoginScreen({ navigation }) {
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Acess')}> 
                         <Image
                             source={require('../assets/Google.png')}
-                            style={styles.google}
+                            style={styles.Google}
                         />
                         <Text style={styles.buttonText}>Como deseja acessar</Text>
                     </TouchableOpacity>

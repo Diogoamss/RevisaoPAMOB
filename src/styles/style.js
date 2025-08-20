@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
     marginLeft: 10,
     fontWeight: "bold",
   },
-  google: {
+  Google: {
     width: 40,
     height: 40,
     borderRadius: 8,

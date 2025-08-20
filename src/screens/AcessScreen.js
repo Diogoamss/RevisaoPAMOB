@@ -1,4 +1,4 @@
-import { styles } from "../styles/styles";
+import { styles } from "../styles/style";
 import { View, TouchableOpacity, Text, ScrollView, TextInput, Image} from "react-native";
 import Checkbox from "expo-checkbox";
 import { useState } from "react";
@@ -120,11 +120,11 @@ export default function AcessoScreen({ navigation }) {
             >
                 <View style={styles.AcessFooter}>
                     <TouchableOpacity style={styles.Google}>
-                        <Image source={require('../assets/google.png')} />
+                        <Image source={require('../assets/Google.png')} />
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.Facebook}>
-                        <Image source={require('../assets/facebook.png')} />
+                        <Image source={require('../assets/Facebook.png')} />
                     </TouchableOpacity>
 
                 </View>

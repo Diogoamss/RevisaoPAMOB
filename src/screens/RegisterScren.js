@@ -107,10 +107,10 @@ export default function RegisterScreen({ navigation }) {
             >
                 <View style={styles.RegisterFooter}>
                     <TouchableOpacity style={styles.Google}>
-                        <Image style={styles.GoogleIcon} source={require('../assets/google.png')} />
+                        <Image style={styles.GoogleIcon} source={require('../assets/Google.png')} />
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.Facebook}>
-                        <Image style={styles.FacebookIcon} source={require('../assets/facebook.png')} />
+                        <Image style={styles.FacebookIcon} source={require('../assets/Facebook.png')} />
                     </TouchableOpacity>
                 </View>
             </MotiView>
